@@ -1,0 +1,242 @@
+Ruby On Rails 3 Tutorial >> Progress Log
+------------------
+
+TIMESTAMP						ACTIVITY
+----							--------
+Wed Sep  7 08:37:18 EDT 2011	installed RVM in ~/
+Wed Sep  7 08:39:25 EDT 2011	tested RVM - functioning correctly
+Wed Sep  7 08:46:52 EDT 2011	installed Ruby v 1.8.7-p352 in ~/.rvm/src/
+Wed Sep  7 08:51:00 EDT 2011	installed RubyGems 1.8.1 in ~/.rvm/src
+Wed Sep  7 08:52:10 EDT 2011	installed Ruby v 1.9.2-p290 in ~/.rvm/src
+Wed Sep  7 08:55:19 EDT 2011	installed Yaml v 0.1.4 in ~/.rvm/src
+Fri Sep 16 09:13:16 EDT 2011	created gemset @rails2 (ruby 1.8.7-p352)
+Fri Sep 16 09:18:55 EDT 2011	created and using gemset @rails 3 (ruby 1.9.2-p290)
+Fri Sep 16 09:21:59 EDT 2011	created gemset @rails3 (ruby 1.9.2-p290)
+Fri Sep 16 09:23:09 EDT 2011	set default environment as @rails3
+Fri Sep 16 09:26:26 EDT 2011	updated RubyGems
+Fri Sep 16 09:44:09 EDT 2011	installed rails v 3.0.1 in root
+Fri Sep 16 09:44:17 EDT 2011	installed rails v 3.0.1 in @rails3
+Fri Sep 16 09:45:21 EDT 2011	created directory rails_projects in ~/sites/training/rails/ror3_tutorial
+Fri Sep 16 09:46:03 EDT 2011	created new rails app first_app in rails_projects/
+Sat Sep 17 08:46:01 EDT 2011	bundled new gems
+Sat Sep 17 10:14:04 EDT 2011	started server, all working well
+Sat Sep 17 16:35:37 EDT 2011	created alias in git - 'co' for 'checkout'
+Sat Sep 17 16:36:43 EDT 2011	changed editor git will use for commits to TextMate
+Sat Oct  8 08:37:54 EDT 2011	updated .gitignore
+Sat Oct  8 08:38:57 EDT 2011	added files to git repository
+Sat Oct  8 08:51:58 EDT 2011	committed to git "First commit"
+Sat Oct  8 08:52:15 EDT 2011	created intentional mistake - deleted app/controllers directory
+Sat Oct  8 08:52:33 EDT 2011	used "git checkout -f" to return to previous commit
+Sat Oct  8 09:55:02 EDT 2011	skipped ahead to work on building demo app
+Wed Oct 12 08:09:23 EDT 2011	returned to /first_app to create GitHub repository
+Wed Oct 12 08:09:39 EDT 2011	pushed first_app to github.com:openspectrum/first_app.git
+Wed Oct 12 08:21:51 EDT 2011	created new git branch modify-README
+Wed Oct 12 08:22:02 EDT 2011	created new README.markdown file
+Wed Oct 12 08:22:17 EDT 2011	modified .gitignore to exclude all TextMate project file types
+Wed Oct 12 08:26:12 EDT 2011	merged branch modify-README into master
+Wed Oct 12 08:26:28 EDT 2011	removed branch modify-README
+Wed Oct 12 08:26:35 EDT 2011	pushed to GitHub
+Wed Oct 12 08:31:50 EDT 2011	installed heroku gem in system
+Wed Oct 12 08:32:04 EDT 2011	installed heroku gem in rvm gemset ruby-1.9.2-p290@rails3
+Wed Oct 12 08:33:36 EDT 2011	added SSH keys to heroku w/ cmd "heroku keys:add"
+Wed Oct 12 08:33:57 EDT 2011	created new application at heroku "growing-robot-1856"
+Wed Oct 12 08:40:49 EDT 2011	deployed to heroku
+Wed Oct 12 08:57:24 EDT 2011	switched back to Chapter 3
+Wed Oct 12 09:12:53 EDT 2011	updated Gemfile to include RSpec
+Wed Oct 12 09:13:05 EDT 2011	created git repository for sample_app
+Wed Oct 12 09:19:23 EDT 2011	pushed to GitHub repo for sample_app
+Wed Oct 12 09:20:51 EDT 2011	created heroku app for sample_app
+Wed Oct 12 09:21:52 EDT 2011	pushed to heroku
+Wed Oct 12 09:31:23 EDT 2011	renamed heroku app to "ror-tutorial-sample-app"
+Thu Oct 13 22:53:56 EDT 2011	created Pages controller
+Thu Oct 13 22:54:03 EDT 2011	beginning test section, skipped autotest gem install - COME BACK TO THIS
+Thu Oct 13 23:19:53 EDT 2011	finally got rspec to work
+Thu Oct 13 23:20:31 EDT 2011	skipped spork install - COME BACK TO THIS
+Thu Oct 13 23:46:27 EDT 2011 	completed TTD for creating new pages, editing controllers and views
+Sat Oct 15 09:29:56 EDT 2011	finished exercise 1 from Chapter 3
+Sat Oct 15 09:40:26 EDT 2011	finished exercise 2 from Chapter 3
+Sun Oct 16 15:49:57 EDT 2011	built application helper to streamline page title insertion
+Sun Oct 16 15:49:46 EDT 2011	installed CSS Blueprint framework
+Sun Oct 16 15:53:48 EDT 2011	created file example_user.rb
+Sun Oct 16 15:56:27 EDT 2011	played with example user in rails console
+Sun Oct 16 16:18:05 EDT 2011	finished exercises from Chapter 4
+Mon Oct 17 21:36:51 EDT 2011	started Ch 5, created new git branch "filling-in-layout"
+Thu Oct 20 08:23:16 EDT 2011	finishing up CSS customization
+Thu Oct 20 08:24:43 EDT 2011	generated integration test "layout_links"
+Thu Oct 20 08:28:08 EDT 2011	wrote integration test to test for new routes, all fail
+Thu Oct 20 08:34:05 EDT 2011	created new routes, changed root to pages/home, removed rails default page
+Thu Oct 20 08:34:32 EDT 2011	git commit
+Thu Oct 20 08:39:49 EDT 2011	replaced links in layout with new routes
+Thu Oct 20 08:39:57 EDT 2011	git commit
+Thu Oct 20 08:40:16 EDT 2011	generated new controller Users
+Thu Oct 20 08:40:40 EDT 2011	removed spec/views and spec/helpers
+Thu Oct 20 08:51:37 EDT 2011	updated tests to include new User page
+Thu Oct 20 08:51:51 EDT 2011	changed routes to map /signup to users/new
+Thu Oct 20 08:52:07 EDT 2011	git commit, checkout master, merged filling-in-layout to master
+Thu Oct 20 09:04:24 EDT 2011	exercises from Ch 5 - created logo helper, added test to check layout links
+Thu Oct 20 09:06:04 EDT 2011	git commit
+Thu Oct 20 09:10:30 EDT 2011	created new git branch "modeling-users", switched to it	
+Thu Oct 20 09:17:10 EDT 2011	generated new model "user"
+Thu Oct 20 09:29:07 EDT 2011	ran rake db:migrate to push User model to SQLite db
+Thu Oct 20 09:35:12 EDT 2011	added gem 'annotate' to Gemfile, installed w/ bundle install
+Thu Oct 20 09:43:04 EDT 2011	created annotations for model using command 'bundle exec annotate'
+Thu Oct 20 09:44:52 EDT 2011	added "attr-accessible :name, :email" to User model 
+															(prevent mass assignment vulnerability)
+Sun Oct 23 12:58:42 EDT 2011	playing with console model
+Sun Oct 23 20:18:41 EDT 2011	prepared test db to reflect changes in data model
+Sun Oct 23 20:21:42 EDT 2011	added validation for presence of name attribute in User model
+Sun Oct 23 20:32:17 EDT 2011	made model test for validation
+Thu Oct 27 09:26:14 EDT 2011	added user resource to routes
+Thu Oct 27 09:28:48 EDT 2011	added debug params to application layout
+Thu Oct 27 09:32:34 EDT 2011	git commit
+Mon Nov  7 08:45:02 EST 2011	starting chapter 7 - COME BACK TO EXERCISES IN CHAP 6
+Mon Nov  7 08:53:50 EST 2011	created test for user creation with password validation
+Mon Nov  7 09:00:25 EST 2011	added password attributes to User model
+Mon Nov  7 09:05:37 EST 2011	created migration for User model to add encrypted password
+Mon Nov  7 09:05:46 EST 2011	raked db:migrate and db:test:prepare
+Mon Nov  7 09:39:57 EST 2011	working on password encryption test
+Mon Nov  7 09:45:39 EST 2011	added salt migration to users table
+Mon Nov  7 09:45:58 EST 2011	raked db:migrate and db:test:prepare
+Mon Nov  7 09:51:04 EST 2011	created model code for password encryption using digest and a hex key with salt
+Thu Nov 10 07:44:21 EST 2011	working on authentication method
+Thu Nov 10 07:58:05 EST 2011	completed User authentication method
+Thu Nov 10 08:02:52 EST 2011	git commit
+Thu Nov 10 08:03:57 EST 2011	added Factory Girl gem to Gemfile
+Thu Nov 10 08:04:09 EST 2011	created file spec/factories.rb
+Thu Nov 10 08:30:58 EST 2011	created Factory for User object
+Thu Nov 10 08:31:09 EST 2011	updated Users controller spec to incorporate Factory into show
+Thu Nov 10 08:34:00 EST 2011	cleared out development database with 'rake db:reset'
+Thu Nov 10 08:34:15 EST 2011	added new example user to db
+Thu Nov 10 08:52:58 EST 2011	restructuring users/show
+Thu Nov 10 08:53:14 EST 2011	added gravatar_image_tag gem to Gemfile
+Thu Nov 10 09:29:19 EST 2011	added gravatar helper method to users_helper.rb
+Thu Nov 10 09:28:59 EST 2011	finished users/show, added CSS
+Fri Nov 11 10:02:01 EST 2011	finished exercises for Ch 7
+Fri Nov 11 10:04:00 EST 2011	started new git branch "signing-up"
+Fri Nov 11 10:16:29 EST 2011	created new user form
+Fri Nov 11 10:40:14 EST 2011	created tests for failed user signup
+Fri Nov 11 10:40:23 EST 2011	submitted failing form, examining functions
+Fri Nov 11 10:55:30 EST 2011	created error messages partial under app/views/shared
+Fri Nov 11 10:55:47 EST 2011	styled error messages for user submit form
+Fri Nov 11 11:07:03 EST 2011	created tests for successful user signup
+Fri Nov 11 11:16:17 EST 2011	created flash message area in application layout
+Fri Nov 11 11:16:32 EST 2011	created test for flash welcome message on user signup success
+Fri Nov 11 11:22:51 EST 2011	first user signup - Success!
+Fri Nov 11 11:40:51 EST 2011	created integration test for user signup, failure and success
+Fri Nov 11 11:41:06 EST 2011	git commit, checkout master, merge branch "signing-up"
+Fri Nov 11 11:58:56 EST 2011	finished exercises for Chap 8
+Sun Nov 13 19:27:03 EST 2011	started new git branch "sign-in-out"
+Sun Nov 13 19:32:10 EST 2011	generated new controller "Sessions"
+Sun Nov 13 19:36:42 EST 2011	changed routes.rb to reflect Sessions actions
+Sun Nov 13 19:46:01 EST 2011	created signin page
+Sun Nov 13 20:39:12 EST 2011	building sessions helper
+Thu Nov 17 09:19:43 EST 2011	finished signin methods
+Mon Nov 21 08:38:45 EST 2011	added sign in test to Rspec Helper
+Mon Nov 21 08:47:22 EST 2011	completed test and code for user sign out
+Mon Nov 21 08:52:41 EST 2011	finished test and code for user sign in/out
+Mon Nov 21 09:07:15 EST 2011	added "Profile" link to layout, changed sign in/sign out button layout
+Mon Nov 21 09:12:00 EST 2011	finished integration test for sign in/out (in users_spec.rb)
+Mon Nov 21 09:14:33 EST 2011	git add all files, commit, merged branch "sign-in-out"
+Mon Nov 21 09:24:08 EST 2011	finished Ch 9, Exercise 1
+Sun Nov 27 11:35:46 CST 2011	finished Ch 9, Exercise 2
+Sun Nov 27 11:35:57 CST 2011	COME BACK TO FINISH EX 3
+Sun Nov 27 20:29:30 CST 2011	created and switched to git branch "updating-users"
+Sun Nov 27 22:05:00 CST 2011	test for edit page passes
+Wed Dec 14 09:09:26 EST 2011	test for update user
+Wed Dec 14 09:09:42 EST 2011	built app code for update user
+Wed Dec 14 09:15:56 EST 2011	test and app code for authentication to edit/update user
+Wed Dec 14 09:21:15 EST 2011	test and app code for correct user authentication to edit/update action
+Wed Dec 14 09:40:42 EST 2011	created new integration test "Friendly Following"
+Wed Dec 14 09:46:18 EST 2011	app code for "Friendly Following"
+Wed Dec 14 09:48:54 EST 2011	git commit
+Sat Dec 24 10:44:08 EST 2011	created test for users index action
+Sat Dec 24 10:51:14 EST 2011	app code for users index action
+Sat Dec 24 10:51:27 EST 2011	app code for users index view
+Sat Dec 24 10:55:32 EST 2011	added gem 'faker' to gemfile (for automated user generation)
+Mon Dec 26 11:10:53 EST 2011	bundle install
+Mon Dec 26 11:14:41 EST 2011	create file "sample_data.rake" to generate users
+Mon Dec 26 11:16:47 EST 2011	executed "rake db:populate"
+Mon Dec 26 11:20:32 EST 2011	added 'will_paginate' gem to gemfile
+Mon Dec 26 11:20:55 EST 2011	bundle install
+Mon Dec 26 11:22:09 EST 2011	added "will_paginate" method to users index view
+Mon Dec 26 11:24:38 EST 2011	modified code in users controller to create paginate-friendly object
+Mon Dec 26 11:28:10 EST 2011	added sequence method to factories.rb to handle multiple-user creation
+Mon Dec 26 11:34:27 EST 2011	created test for pagination
+Mon Dec 26 11:38:39 EST 2011	refactored users index view include render call on @users
+Mon Dec 26 11:45:54 EST 2011	wrote test for user admin boolean in user_spec.rb
+Mon Dec 26 11:47:25 EST 2011	migration "add_admin_to_users" for admin boolean value to users table
+Mon Dec 26 11:49:25 EST 2011	rake db:migrate and rake db:test:prepare
+Mon Dec 26 11:50:44 EST 2011	made first user an admin (email example@railstutorial.org, password foobar)
+Mon Dec 26 11:52:27 EST 2011	changed "sample_data.rake" to make first user an admin, reset test db
+Mon Dec 26 11:56:20 EST 2011	modified _user partial to include "delete" link for admin users
+Mon Dec 26 12:04:40 EST 2011	added "javascript_include_tag" to site layout so JS-enabled requests work
+Mon Dec 26 12:30:43 EST 2011	wrote test to limit delete requests to admin users
+Mon Dec 26 12:34:52 EST 2011	app code for destroy action
+Mon Dec 26 12:40:08 EST 2011	git commit
+Mon Dec 26 12:40:14 EST 2011	git merge branch 'updating-users', co to master
+Mon Dec 26 12:40:26 EST 2011	git branch 'ch-10-exercises'
+Mon Dec 26 12:44:03 EST 2011	changed gravatar change link to open in new window
+Mon Dec 26 12:51:58 EST 2011	moved user edit, new forms to partial _fields
+Tue Dec 27 20:14:26 EST 2011	finished ch 10 exercises
+Tue Dec 27 20:21:46 EST 2011	git co -b user-microposts
+Tue Dec 27 20:23:39 EST 2011	rails g model Micropost content:string user_id:integer
+Tue Dec 27 20:25:03 EST 2011	modified migration for Micropost
+Tue Dec 27 20:25:49 EST 2011	rake db:migrate ; rake db:test:prepare
+Tue Dec 27 20:41:57 EST 2011	tests for Micropost model and association with User model
+Tue Dec 27 20:42:16 EST 2011	test for User model association with Micropost model
+Tue Dec 27 20:48:46 EST 2011	modified factories.rb to make a Factory for microposts
+Tue Dec 27 20:56:11 EST 2011	test and app code for Default Scope of microposts (newest first)
+Tue Dec 27 21:00:12 EST 2011	test and app code for Dependency (destroy user's microposts when destroy user)
+Tue Dec 27 21:13:26 EST 2011	completed Micropost data modeling and tests
+Tue Dec 27 21:24:52 EST 2011	test for displaying user's microposts on "show" page
+Tue Dec 27 21:38:51 EST 2011	updated user "show" view, added @microposts partial
+Tue Dec 27 21:49:47 EST 2011	updated css for microposts list
+Tue Dec 27 21:50:04 EST 2011	created new generator for microposts, rake db:populate
+Fri Dec 30 13:41:52 EST 2011	changed file routes.rb to include Microposts resource
+Fri Dec 30 13:44:35 EST 2011	test for microposts controller
+Fri Dec 30 13:46:59 EST 2011	moved method 'authenticate' from users controller to sessions helper
+Fri Dec 30 13:48:34 EST 2011	created file /app/controllers/microposts_controller.rb
+Fri Dec 30 13:54:57 EST 2011	test for microposts controller - validate post, ensure redirect and flash
+Fri Dec 30 14:03:45 EST 2011	app code for action 'create' in microposts controller
+Fri Dec 30 14:06:58 EST 2011	modified home page view to display differently for signed-in users
+Fri Dec 30 14:09:27 EST 2011	created partial for micropost form in /app/views/shared/
+Fri Dec 30 14:11:26 EST 2011	created partial for user info in /app/views/shared/
+Fri Dec 30 14:13:32 EST 2011	modified PagesController to give signed-in users access to a @micropost variable
+Fri Dec 30 15:13:54 EST 2011	test for status feed
+Fri Dec 30 15:20:05 EST 2011	added method "feed" to User model
+Fri Dec 30 15:24:18 EST 2011	modified pages controller, added feed partial to /app/views/shared/
+Fri Dec 30 15:32:30 EST 2011	added feed item partial
+Fri Dec 30 15:33:14 EST 2011	added feed to home page
+Fri Dec 30 15:54:15 EST 2011	tests for deleting microposts
+Fri Dec 30 15:57:22 EST 2011	app code for delete micropost and authorized_user private method
+Fri Dec 30 16:02:37 EST 2011	integration test for micropost creation
+Fri Dec 30 16:08:12 EST 2011	git commit
+Fri Dec 30 16:08:20 EST 2011	git push heroku
+Fri Dec 30 16:08:35 EST 2011	git push origin master
+Fri Dec 30 16:13:27 EST 2011	ALERT - command 'heroku rake db:migrate' failed. 
+															latest data model not migrated to heroku.
+Sun Jan  8 15:49:08 EST 2012	finished Ch 11 exercises 2-7 - NEED TO FINISH #8
+Mon Jan  9 08:43:42 EST 2012	git commit
+Mon Jan  9 08:43:47 EST 2012	git co -b following-users
+Mon Jan  9 09:02:15 EST 2012	rails g model Relationships to define user following/followed relationship
+Mon Jan  9 09:03:32 EST 2012	modified migration and then rake db:migrate and rake db:test:prepare
+Mon Jan  9 20:43:58 EST 2012	creating tests and data model for following/followed relationships
+Mon Jan  9 22:09:19 EST 2012	finished data modeling for relationships and reverse_relationships
+Tue Jan 10 17:56:56 EST 2012	refactored sample_data.rake and included a make_relationships method
+Tue Jan 10 17:57:16 EST 2012	rake db:populate
+Tue Jan 10 18:03:33 EST 2012	added a following/followers route to the users resource
+Tue Jan 10 18:17:51 EST 2012	created test and app code for following/unfollowing
+Fri Jan 13 08:58:08 EST 2012	finished test and app code for following/unfollowing
+Fri Jan 13 09:06:29 EST 2012	added Ajax to follow/unfollow and created tests in RelContSpec
+Fri Jan 13 09:10:48 EST 2012	added call to respond_to method in RelController to allow for Ajax responses
+Sat Jan 14 13:49:26 EST 2012	created JS for Ajax follow/unfollow
+Sat Jan 14 13:59:25 EST 2012	tests for user microposts feed
+Sun Jan 15 10:52:45 EST 2012	added scope :from_users_followed_by to Mircopost
+Sun Jan 15 10:57:57 EST 2012	built SQL subselect to pull feed
+Sun Jan 15 11:03:08 EST 2012	git commit, co master
+Sun Jan 15 11:03:15 EST 2012	git push heroku
+Sun Jan 15 11:03:42 EST 2012	git push origin master
+Sun Jan 15 11:04:41 EST 2012	heroku rake db:migrate FAILED
+Sun Jan 15 11:41:35 EST 2012	git co following-users - starting Ch 12 exercises
+Sun Jan 22 08:41:27 EST 2012	finished example 6
+Sun Jan 22 10:04:41 EST 2012	solved Ch 11 exercise 1

@@ -1,0 +1,11 @@
+<h1>Goodbye!</h1>
+<p>It was nice having you here.</p>
+<p>You just looked at the following files:</p>
+<p>
+	<% for file in @files %>
+		&gt; <%= file %> 
+	<% end %>
+</p>
+<p>
+	Say <%= link_to "Hello", say_hello_path %> again.
+</p>

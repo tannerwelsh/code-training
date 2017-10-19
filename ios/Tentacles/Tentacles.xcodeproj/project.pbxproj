@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A162381A2E63FC00EA0DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A162371A2E63FC00EA0DBF /* AppDelegate.swift */; };
+		33A1623D1A2E63FC00EA0DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1623B1A2E63FC00EA0DBF /* Main.storyboard */; };
+		33A1623F1A2E63FC00EA0DBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A1623E1A2E63FC00EA0DBF /* Images.xcassets */; };
+		33A162421A2E63FC00EA0DBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A162401A2E63FC00EA0DBF /* LaunchScreen.xib */; };
+		33A1624E1A2E63FC00EA0DBF /* TentaclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1624D1A2E63FC00EA0DBF /* TentaclesTests.swift */; };
+		33A162581A2E736900EA0DBF /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A162571A2E736900EA0DBF /* NotificationsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A162481A2E63FC00EA0DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A1622A1A2E63FB00EA0DBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A162311A2E63FB00EA0DBF;
+			remoteInfo = Tentacles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A162321A2E63FC00EA0DBF /* Tentacles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tentacles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A162361A2E63FC00EA0DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A162371A2E63FC00EA0DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33A1623C1A2E63FC00EA0DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33A1623E1A2E63FC00EA0DBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33A162411A2E63FC00EA0DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33A162471A2E63FC00EA0DBF /* TentaclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TentaclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1624C1A2E63FC00EA0DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A1624D1A2E63FC00EA0DBF /* TentaclesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TentaclesTests.swift; sourceTree = "<group>"; };
+		33A162571A2E736900EA0DBF /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationsTableViewController.swift; path = ../NotificationsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A1622F1A2E63FB00EA0DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A162441A2E63FC00EA0DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A162291A2E63FB00EA0DBF = {
+			isa = PBXGroup;
+			children = (
+				33A162341A2E63FC00EA0DBF /* Tentacles */,
+				33A1624A1A2E63FC00EA0DBF /* TentaclesTests */,
+				33A162331A2E63FC00EA0DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A162331A2E63FC00EA0DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A162321A2E63FC00EA0DBF /* Tentacles.app */,
+				33A162471A2E63FC00EA0DBF /* TentaclesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A162341A2E63FC00EA0DBF /* Tentacles */ = {
+			isa = PBXGroup;
+			children = (
+				33A162571A2E736900EA0DBF /* NotificationsTableViewController.swift */,
+				33A162371A2E63FC00EA0DBF /* AppDelegate.swift */,
+				33A1623B1A2E63FC00EA0DBF /* Main.storyboard */,
+				33A1623E1A2E63FC00EA0DBF /* Images.xcassets */,
+				33A162401A2E63FC00EA0DBF /* LaunchScreen.xib */,
+				33A162351A2E63FC00EA0DBF /* Supporting Files */,
+			);
+			path = Tentacles;
+			sourceTree = "<group>";
+		};
+		33A162351A2E63FC00EA0DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A162361A2E63FC00EA0DBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33A1624A1A2E63FC00EA0DBF /* TentaclesTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A1624D1A2E63FC00EA0DBF /* TentaclesTests.swift */,
+				33A1624B1A2E63FC00EA0DBF /* Supporting Files */,
+			);
+			path = TentaclesTests;
+			sourceTree = "<group>";
+		};
+		33A1624B1A2E63FC00EA0DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A1624C1A2E63FC00EA0DBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A162311A2E63FB00EA0DBF /* Tentacles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A162511A2E63FC00EA0DBF /* Build configuration list for PBXNativeTarget "Tentacles" */;
+			buildPhases = (
+				33A1622E1A2E63FB00EA0DBF /* Sources */,
+				33A1622F1A2E63FB00EA0DBF /* Frameworks */,
+				33A162301A2E63FB00EA0DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tentacles;
+			productName = Tentacles;
+			productReference = 33A162321A2E63FC00EA0DBF /* Tentacles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A162461A2E63FC00EA0DBF /* TentaclesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A162541A2E63FC00EA0DBF /* Build configuration list for PBXNativeTarget "TentaclesTests" */;
+			buildPhases = (
+				33A162431A2E63FC00EA0DBF /* Sources */,
+				33A162441A2E63FC00EA0DBF /* Frameworks */,
+				33A162451A2E63FC00EA0DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A162491A2E63FC00EA0DBF /* PBXTargetDependency */,
+			);
+			name = TentaclesTests;
+			productName = TentaclesTests;
+			productReference = 33A162471A2E63FC00EA0DBF /* TentaclesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A1622A1A2E63FB00EA0DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tanner Welsh";
+				TargetAttributes = {
+					33A162311A2E63FB00EA0DBF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					33A162461A2E63FC00EA0DBF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 33A162311A2E63FB00EA0DBF;
+					};
+				};
+			};
+			buildConfigurationList = 33A1622D1A2E63FB00EA0DBF /* Build configuration list for PBXProject "Tentacles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A162291A2E63FB00EA0DBF;
+			productRefGroup = 33A162331A2E63FC00EA0DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A162311A2E63FB00EA0DBF /* Tentacles */,
+				33A162461A2E63FC00EA0DBF /* TentaclesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A162301A2E63FB00EA0DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1623D1A2E63FC00EA0DBF /* Main.storyboard in Resources */,
+				33A162421A2E63FC00EA0DBF /* LaunchScreen.xib in Resources */,
+				33A1623F1A2E63FC00EA0DBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A162451A2E63FC00EA0DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A1622E1A2E63FB00EA0DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A162581A2E736900EA0DBF /* NotificationsTableViewController.swift in Sources */,
+				33A162381A2E63FC00EA0DBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A162431A2E63FC00EA0DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1624E1A2E63FC00EA0DBF /* TentaclesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A162491A2E63FC00EA0DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A162311A2E63FB00EA0DBF /* Tentacles */;
+			targetProxy = 33A162481A2E63FC00EA0DBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A1623B1A2E63FC00EA0DBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A1623C1A2E63FC00EA0DBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33A162401A2E63FC00EA0DBF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A162411A2E63FC00EA0DBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A1624F1A2E63FC00EA0DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A162501A2E63FC00EA0DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A162521A2E63FC00EA0DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tentacles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33A162531A2E63FC00EA0DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tentacles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33A162551A2E63FC00EA0DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TentaclesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tentacles.app/Tentacles";
+			};
+			name = Debug;
+		};
+		33A162561A2E63FC00EA0DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TentaclesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tentacles.app/Tentacles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A1622D1A2E63FB00EA0DBF /* Build configuration list for PBXProject "Tentacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1624F1A2E63FC00EA0DBF /* Debug */,
+				33A162501A2E63FC00EA0DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A162511A2E63FC00EA0DBF /* Build configuration list for PBXNativeTarget "Tentacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A162521A2E63FC00EA0DBF /* Debug */,
+				33A162531A2E63FC00EA0DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33A162541A2E63FC00EA0DBF /* Build configuration list for PBXNativeTarget "TentaclesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A162551A2E63FC00EA0DBF /* Debug */,
+				33A162561A2E63FC00EA0DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A1622A1A2E63FB00EA0DBF /* Project object */;
+}
